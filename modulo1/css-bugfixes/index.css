@@ -111,6 +111,14 @@ td button {
     border-radius: 5px;
     color: black;
 }
+.botao-branco:active{
+    color: white;
+
+
+}
+.botao-branco:hover {
+    background-color: #fe7e02;
+}
 
 .container-do-search {
     margin-top: 20px;
