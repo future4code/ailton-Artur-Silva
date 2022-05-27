@@ -1,0 +1,15 @@
+.titulo-Marrom {
+    background-color: brown;
+   margin: 32px;
+    padding: 32px
+}
+.nome-preto {
+   color: white;
+    background-color: black;
+    border: 1px;
+    padding: 8px;
+}
+.titulo-amarelo{
+    background-color: yellow;
+
+}
