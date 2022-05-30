@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0
+}
+li.open {
+    list-style: none;
+  
+  }
+
+h2 {color: white;
+}
+.botao{
+   
+    height:30px; ;
+    width: 0vw;
+    margin: 0 88vw ;
+    color: white;
+    border: 0;
+}
+
+.botao:active{
+    color: black;
+}
+
+h2 {color: white;
+}
+    
+.cabeçalho{
+    background:blue;
+    padding: 30px;
+}
+.container-sobre{
+    background: rgb(0, 0, 3);
+    width: 45vw;
+    height: 600px;
+    margin: -17vw 50vw;
+    border-radius: 40px;
+}
+#container-descriçao{
+    height: 400px;
+    width: 50vw;
+    padding-left: 50px;
+    
+}
+h1{
+    
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#texto {
+    text-align: center;
+    font-size: 30px;
+}
+h3{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.rede-socical{
+    text-align: center;
+    padding: 250px;
+    margin: 0px;
+   
+}
+
+/* contato */
+
+.contato {
+    background: blue;
+    padding: 300px;
+   
+}
+
+.texto-contato{
+    margin: 0 420px;
+    padding: 0px;
+    width: 377px;
+    height: 50px;
+    text-align: center;
+    color: black;
+}
+#texto-incial{
+    color: black;
+    margin: 0 420px;
+}
+.branco{
+  
+    position: absolute;
+    color: white;
+    width: 2px;
+    bottom: 200px;
+    right: 55vw;
+}
