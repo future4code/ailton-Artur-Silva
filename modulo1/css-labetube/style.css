@@ -34,7 +34,7 @@ main {
 section {
     padding: 2px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(28em, 1fr));
     grid-template-rows: repeat(2, 1fr);
     gap: 3px;
 }
@@ -51,7 +51,7 @@ video{
 }
 .card {
     border: 1px solid orange;
-    width: 450px;
+    width: 28em;
     display: flex;
     flex-direction: column;
 }
@@ -60,10 +60,22 @@ video{
 }
 .sectionVideo{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(1000px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(62.5em, 1fr));
     grid-template-rows: repeat(1, 1fr);
     justify-items: center;
 }
 .videoMidia{
     height: 700px;
 }
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+.container, img, section, .videoMidia, video, .sectionVideo, footer, .card, main{
+    width: 100%;
+}
+
+}
+
+    
+
+    
